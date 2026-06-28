@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Ubuntu Commands - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+
+  <nav class="navbar">
+    <div class="logo">Ubuntu Commands</div>
+
+    <ul class="nav-links">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="beginner.html">Beginner</a></li>
+      <li><a href="intermediate.html">Intermediate</a></li>
+      <li><a href="advanced.html">Advanced</a></li>
+    </ul>
+
+    <button id="themeToggle">Dark Mode</button>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Learn Ubuntu Commands</h1>
+      <p>
+        This website helps beginners learn Ubuntu terminal commands step by step.
+        Start from basic commands, then continue to intermediate and advanced commands.
+      </p>
+
+      <div class="cards">
+        <a class="card" href="beginner.html">
+          <h2>Beginner</h2>
+          <p>Learn basic file, folder, and terminal commands.</p>
+        </a>
+
+        <a class="card" href="intermediate.html">
+          <h2>Intermediate</h2>
+          <p>Learn package, service, network, and permission commands.</p>
+        </a>
+
+        <a class="card" href="advanced.html">
+          <h2>Advanced</h2>
+          <p>Learn process, system, SSH, firewall, and log commands.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ubuntu Commands Learning Website</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
